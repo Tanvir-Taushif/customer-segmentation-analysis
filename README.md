@@ -68,6 +68,26 @@ The dataset (`dataset.csv`) contains the following key columns:
 
 ---
 
+### 💰 Segment-wise Sales and Profit Summary
+
+| Segment       | Sales      | Profit     | Items Ordered | Avg Sales per Item | Avg Profit per Item |
+|---------------|------------|------------|----------------|---------------------|----------------------|
+| Consumer      | $1,148,061 | $181,361   | 5,101          | $225.07             | $35.55               |
+| Corporate     | $688,494   | $108,894   | 2,953          | $233.15             | $36.88               |
+| Home Office   | $424,982   | $71,898    | 1,746          | $243.40             | $41.18               |
+
+---
+
+### 📦 Segment-wise Product Distribution by Category
+
+| Segment       | Furniture | Office Supplies | Technology |
+|---------------|-----------|------------------|------------|
+| Consumer      | 1,093     | 3,072            | 936        |
+| Corporate     | 628       | 1,783            | 542        |
+| Home Office   | 357       | 1,054            | 335        |
+
+---
+
 ## 🎯 Recommendation 1: Implement Targeted, Controlled Discounts for the Consumer Segment on Office Supplies
 
 ### Justification:
