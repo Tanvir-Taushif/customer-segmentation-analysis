@@ -44,36 +44,55 @@ The dataset (`dataset.csv`) contains the following key columns:
 
 ## 📷 Visual Insights
 
-### Sales and Profit by Segment
+### Sales, Profit & Avg. Discount by Segment
 
 ![Sales by Segment](images/1.JPG)
 
 ---
 
-### Discount vs Profit Correlation
+### Profit Margin by Segment
 
 ![Discount vs Profit](images/2.JPG)
 
 ---
 
-### Lead Time Distribution
+### Discount vs Sells and Profit Correlation
 
 ![Lead Time Histogram](images/3.JPG)
 
 ---
 
-### Profit Margin by Category and Segment
+### Order Distribution based on Segment
 
 ![Profit by Segment & Category](images/4.JPG)
 
 ---
 
-## 💡 Recommendations
+## 🎯 Recommendation 1: Implement Targeted, Controlled Discounts for the Consumer Segment on Office Supplies
 
-1. **Reduce blanket discounts** for low-margin categories like Office Supplies
-2. **Apply premium pricing** in Technology where demand is less price-sensitive
-3. **Optimize shipping processes** to reduce long lead times in low-performing regions
-4. **Target profitable segments** with personalized promotions
+### Justification:
+- The **Consumer** segment has the **highest number of items ordered overall (5,101)**, and **Office Supplies alone account for 3,072 items** (≈60% of their volume).
+- Their **average profit per item is only $35.55**, indicating thinner margins due to possibly unnecessary discounts.
+- **Scatterplot analysis** shows no meaningful increase in sales with higher discounts, but a **clear decline in profit**.
+
+### Strategy:
+- Apply **targeted discounts (5–10%)** only on high-volume Office Supplies, not across all products.
+- **Bundle frequently purchased items** (e.g., pens + paper) to increase average transaction size while limiting margin loss.
+- Use **purchase history** to personalize discounts, avoiding broad promotions that damage profitability.
+
+---
+
+## 💼 Recommendation 2: Adopt Premium Pricing Strategy for the Home Office Segment, Especially in Technology
+
+### Justification:
+- The **Home Office** segment has the **highest average profit per item (\$41.18)** and **highest average sales per item (\$243.40)** but **lowest volume (1,746 items)**.
+- They order **very few Technology items (only 335)** compared to other segments.
+- Analysis shows that **higher discounts correlate strongly with profit loss**, and **Home Office buyers do not increase purchases with discounts**.
+
+### Strategy:
+- **Stop offering general discounts** for this segment.
+- Instead, introduce **premium bundles** or **value-added service tiers** (e.g., setup support, warranty, faster delivery).
+- Encourage Tech adoption by offering **exclusive access or limited-time “premium packs”** — not through price cuts.
 
 ---
 
@@ -82,20 +101,16 @@ The dataset (`dataset.csv`) contains the following key columns:
 - Python (Pandas, Seaborn, Matplotlib, Plotly)
 - Jupyter Notebook
 - Data parsing via `dateutil`
-- Statistical correlation and group analysis
+- Correlation and group analysis
 
 ---
 
-## 📎 How to Run
 
-1. Place `dataset.csv` in the root directory
-2. Run `analysis.ipynb` in Jupyter
-3. All graphs are automatically generated
-4. Images are saved in the `images/` folder for documentation/reporting
+## ✨ Author
+
+**Tanvir Taushif**  
+📧 tanvirpial9961@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/tanvir-taushif) | [GitHub](https://github.com/yourusername)
 
 ---
-
-## 📬 Contact
-
-For questions or collaboration, feel free to reach out!
 
